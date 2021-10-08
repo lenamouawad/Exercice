@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="../Assets/Style/Calculator.css">
     <link rel="stylesheet" href="../Assets/Style/Navbar.css">
+    <script src="../Script/Calculator.js"></script>
     <title>Calculator</title>
 </head>
 
@@ -37,7 +38,35 @@
             </ul>
         </div>
     </nav>
-
+    <div class="container">
+        <div class="barreResultat">
+            <p id="affichage">0</p>
+        </div>
+        <div class="boutons">
+            <div class="chiffres">
+                <div><button onclick="afficher()" class="chiffre" id="9">9</button></div>
+                <div><button onclick="afficher()" class="chiffre" id="8">8</button></div>
+                <div><button onclick="afficher()" class="chiffre" id="7">7</button></div>
+                <div class="break"></div>
+                <div><button onclick="afficher()" class="chiffre" id="6">6</button></div>
+                <div><button onclick="afficher()" class="chiffre" id="5">5</button></div>
+                <div><button onclick="afficher()" class="chiffre" id="4">4</button></div>
+                <div class="break"></div>
+                <div><button onclick="afficher()" class="chiffre" id="3">3</button></div>
+                <div><button onclick="afficher()" class="chiffre" id="2">2</button></div>
+                <div><button onclick="afficher()" class="chiffre" id="1">1</button></div>
+                <div class="break"></div>
+                <div><button onclick="afficher()" class="chiffre" id="0">0</button></div>
+            </div>
+            <div class="operateurs">
+                <div><button onclick="afficher()" class="operateur" id="+">+</button></div>
+                <div><button onclick="afficher()" class="operateur" id="-">-</button></div>
+                <div><button onclick="afficher()" class="operateur" id="/">/</button></div>
+                <div><button onclick="afficher()" class="operateur" id="*">*</button></div>
+            </div>
+        </div>
+        <div><button class="calcul" onclick="afficher()">=</button></div>
+    </div>
 </body>
 
 </html>
