@@ -10,6 +10,7 @@
                         align-content: center;
                         flex-direction: column;
                         background-color: black;
+                        background-image: url(../Images/Calculatrice/Numbers.png);
                         margin-top: 50px;
                         padding: 10px;
                         width: 425px;
@@ -19,11 +20,12 @@
                     }
                     
                     .barreResultat {
-                        background-color: rgb(230, 227, 227);
+                        background-color: white;
                         display: flex;
                         justify-content: end;
                         padding: 5px;
                         height: 35px;
+                        font-size: 20px;
                     }
                     
                     .chiffres {
@@ -66,7 +68,13 @@
                     
                     .calcul {
                         flex-basis: 100%;
-                        background-color: rgb(243, 78, 78);
+                        background-color: white;
                         width: 75%;
                         margin-top: 5px;
+                    }
+                    
+                    .Introduction {
+                        margin-top: 20px;
+                        margin-left: 10px;
+                        font-family: monospace;
                     }
