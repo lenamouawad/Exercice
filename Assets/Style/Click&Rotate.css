@@ -22,18 +22,24 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    font-family: Cambria;
+    font-family: monospace;
     font-size: 20px;
 }
 
-.weather {
+.seasons {
     background-color: transparent;
     outline-style: none;
     border: 0px;
     outline: none;
 }
 
-.weather:active {
+.seasons:active {
     outline: none;
     border: none;
+}
+
+.Introduction {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: monospace;
 }

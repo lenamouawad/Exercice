@@ -13,10 +13,12 @@ body {
 }
 
 .HomeText {
-    font-size: 50px;
+    margin-top: 30px;
+    font-size: 30px;
     color: black;
     font-weight: bolder;
-    font-family: Verdana;
+    font-family: monospace;
     display: flex;
     justify-content: center;
+    align-content: center;
 }
