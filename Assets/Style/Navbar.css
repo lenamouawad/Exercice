@@ -1,0 +1,23 @@
+.navbar-brand {
+    height: 80px;
+    width: 80px;
+}
+
+.navbar-custom {
+    background-color: black;
+    color: white;
+}
+
+.navbar-custom .nav-link {
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.navbar-custom .nav-link:hover {
+    color: rgb(211, 72, 83);
+}
+
+.navbar-nav>.active>a {
+    color: rgb(90, 87, 243);
+}
