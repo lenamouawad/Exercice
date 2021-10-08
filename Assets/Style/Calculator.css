@@ -11,9 +11,13 @@
                         flex-direction: column;
                         background-color: black;
                         background-image: url(../Images/Calculatrice/Numbers.png);
+                        border-style: solid;
+                        border-color: black;
                         margin-top: 50px;
                         padding: 10px;
                         width: 425px;
+                        border-radius: 15px;
+                        border-width: thin;
                         /*width: 304px;
         margin-top: 50px;
         height: 200px;*/
@@ -26,6 +30,7 @@
                         padding: 5px;
                         height: 35px;
                         font-size: 20px;
+                        border-radius: 15px;
                     }
                     
                     .chiffres {
@@ -41,12 +46,14 @@
                     .chiffre {
                         border-style: solid;
                         border-color: black;
-                        background-color: rgb(124, 214, 250);
+                        background-color: rgba(124, 214, 250, 0.966);
                         width: 100px;
                         padding: 20px;
                         text-align: center;
                         font-weight: bolder;
                         font-size: 15px;
+                        border-width: thin;
+                        border-radius: 15px;
                     }
                     
                     .boutons {
@@ -58,12 +65,14 @@
                     .operateur {
                         border-style: solid;
                         border-color: black;
-                        background-color: rgb(120, 230, 30);
+                        background-color: rgba(120, 230, 30, 0.959);
                         width: 100px;
                         padding: 20px;
                         text-align: center;
                         font-weight: bolder;
                         font-size: 15px;
+                        border-width: thin;
+                        border-radius: 15px;
                     }
                     
                     .calcul {
@@ -71,6 +80,8 @@
                         background-color: white;
                         width: 75%;
                         margin-top: 5px;
+                        font-weight: bold;
+                        border-radius: 15px;
                     }
                     
                     .Introduction {
